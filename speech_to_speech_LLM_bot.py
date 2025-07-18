@@ -69,7 +69,7 @@ def speak_text(text):
 
 
 def main():
-    print(" Speech-to-Speech LLaMA2 Bot Ready!")
+    print(" Speech-to-Speech LLM Bot Ready!")
 
     # Start webcam preview
     webcam_thread = threading.Thread(target=show_webcam, daemon=True)
